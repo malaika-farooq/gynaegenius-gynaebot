@@ -8,7 +8,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 20px;
-	color: #999999;
+	color: #7f7f7f;
 	font-size: 300;
 	font-size: 16px;
 }
@@ -51,7 +51,7 @@ h2 {
 hr.botm-line {
     height: 3px;
     width: 60px;
-    background: #ffb737;
+    background: #ff64f2;
     position: relative;
     border: 0;
     margin: 20px 0 20px 0;
@@ -97,13 +97,13 @@ banner
 
 @media (max-width: 768px) {
 	.navbar-collapse {
-		background: rgba(28,74,90, 0.9);
+		background: rgb(240, 60, 159);
 	}
 }
 
 .top-nav-collapse {
     padding: 0;
-    background: rgba(28,74,90, 0.9);
+    background: rgb(240, 60, 159);
 }
 
 .white, .white:hover, .white:focus
@@ -118,7 +118,7 @@ banner
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #fff;
     text-transform: uppercase;
-    background-color: rgba(12, 184, 182, 0.21);
+    background-color: rgb(251, 156, 213)
 }
 .navbar-default .navbar-nav > li > a
 {
@@ -131,14 +131,14 @@ banner
 {
 	color: #fff;
     text-transform: uppercase;
-    background-color: rgba(12, 184, 182, 0.21);
+    background-color: rgb(247, 157, 253);
 }
 .affix {
     background-color: #ffffff !important;
 }
 .affix .navbar-nav > li > a:hover, .affix .navbar-nav > li > a:focus
 {
-    background-color: rgba(12, 184, 182) !important;
+    background-color: rgb(240, 60, 159) !important;
 }
 #banner{
 	background: url('../img/bg-banner.jpg') no-repeat fixed;
@@ -152,7 +152,7 @@ banner
   }
 }
 .bg-color{
-	background-color: RGBA(13, 70, 83, 0.78);
+	background-color:  rgba(12, 184, 182, 0.91);
 	min-height: 650px;
 }
 .banner-info{
@@ -174,7 +174,9 @@ banner
 	margin-top: 30px;
 	padding: 10px 20px;
 	font-size: 12px;
-	background-color: rgba(12, 184, 182, 0.91);
+	/* background-color: rgba(12, 184, 182, 0.91); 0CB8B6 */
+	background-color: #0CB8B6; 
+
 	border-radius: 3px;
 	color: #fff;
 }
@@ -361,13 +363,13 @@ testimonial
 cta -2
 ***************************************/
 #cta-2{
-	background-color: rgb(41, 48, 46);
+	background-color: #fc9cd7;
 }
 .white{
 	color: #fff;
 }
 .icon-play, .icon-play:hover, .icon-play:focus{
-	background-color: #0CB8B6;
+	background-color: #fba7fa;
 	padding: 5px 10px;
 	color: #fff;
 	text-decoration: none;
@@ -376,7 +378,7 @@ cta -2
 	display: block;
 }
 .text-primary {
-    color: #0cb8b6;
+    color: #ffffff;
 }
 .icon-mar
 {
@@ -438,7 +440,7 @@ contact us
 footer
 ***************************************/
 #footer{
-	background-color: #325C6A;
+	background-color:  rgba(12, 184, 182, 0.91);
 }
 .ftr-tle {
     height: 50px;
