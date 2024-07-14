@@ -51,7 +51,7 @@ h2 {
 hr.botm-line {
     height: 3px;
     width: 60px;
-    background: #ff64f2;
+    background: #FF66C4;
     position: relative;
     border: 0;
     margin: 20px 0 20px 0;
@@ -92,18 +92,18 @@ banner
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #EA6045;
+    color: #FF66C4;
 }
 
 @media (max-width: 768px) {
 	.navbar-collapse {
-		background: rgb(240, 60, 159);
+		background: rgba(12, 184, 182, 0.91);
 	}
 }
 
 .top-nav-collapse {
     padding: 0;
-    background: rgb(240, 60, 159);
+    background: rgba(12, 184, 182, 0.91);
 }
 
 .white, .white:hover, .white:focus
@@ -118,7 +118,7 @@ banner
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #fff;
     text-transform: uppercase;
-    background-color: rgb(251, 156, 213)
+    background-color: #FF66C4
 }
 .navbar-default .navbar-nav > li > a
 {
@@ -131,7 +131,7 @@ banner
 {
 	color: #fff;
     text-transform: uppercase;
-    background-color: rgb(247, 157, 253);
+    background-color: #FF66C4;
 }
 .affix {
     background-color: #ffffff !important;
