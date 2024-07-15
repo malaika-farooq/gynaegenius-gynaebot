@@ -16,6 +16,22 @@
         transform: scale(1.1);
     }
 </style>
+<style>
+@keyframes highlightZoom {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(255, 102, 196, 0.5);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(255, 102, 196, 0.7);
+    }
+}
+
+.link {
+    animation: highlightZoom 1.5s infinite;
+}
+</style>
   <style>
 .social-buttons {
     display: inline-block;
@@ -150,12 +166,16 @@
             <div class="banner-logo text-center">
               <img src="img/new5.png" class="img-responsive" style="width: 220px;">
             </div>
-            <div class="banner-text text-center" style="padding-bottom: 10px;">
+            <div class="banner-text text-center" style="padding-bottom: 10px; padding-top: 16px;">
               <h1 class="white">Women Healthcare, a chat away!!</h1>
               <p>This website is specially designed to help pregnant women, mothers, and their infants <br>by providing comprehensive support and information on various health concerns.</p>
-             <button class="link" style="background-color: #FF66C4; padding: auto; padding-top: 6px; padding-bottom: 6px; color: #ffffff; font-size: larger; border-radius: 25px; padding: 10px 20px; border: none; cursor: pointer; transition: all 0.3s ease;">
-    <a href="https://symptoms.webmd.com/default.htm#/info" style="color: #ffffff; font-size: larger; text-decoration: none;"><strong>Try GynaeGenius Bot Now!</strong></a>
+            
+<button class="link" style="background-color: #FF66C4; color: #ffffff; font-size: larger; border-radius: 25px; padding: 10px 20px; border: none; cursor: pointer; transition: all 0.3s ease; animation: highlightZoom 1.5s infinite;">
+    <a href="https://gynaegenius-bot.streamlit.app/" style="color: #ffffff; font-size: larger; text-decoration: none;"><strong>Try GynaeGenius Bot Now!</strong></a>
 </button>
+<!-- <button class="link" style="background-color: #FF66C4; padding: auto; padding-top: 6px; padding-bottom: 6px; color: #ffffff; font-size: larger; border-radius: 25px; padding: 10px 20px; border: none; cursor: pointer; transition: all 0.3s ease; animation: blinkZoom 1.5s infinite;">
+    <a href="https://symptoms.webmd.com/default.htm#/info" style="color: #ffffff; font-size: larger; text-decoration: none;"><strong>WebMD Symptom Check!</strong></a>
+</button> -->
             </div>
            </div>
         </div>
@@ -287,7 +307,7 @@
     </div>
     <div class="service-info">
         <div class="icon" >
-            <i class="fa fa-hospital" style="color: #FF66C4"></i>
+            <i class="fa fa-stethoscope" style="color: #FF66C4"></i>
         </div>
         <div class="icon-info">
             <h4>Cancer Screening and Prevention</h4>
